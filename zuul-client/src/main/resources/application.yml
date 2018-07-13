@@ -10,6 +10,8 @@ spring:
   application:
     name: service-zuul
 
+
+
 zuul:
   routes:
     hiapi:
@@ -34,3 +36,5 @@ zuul:
 #hiapi-v1:
 #  ribbon:
 #    listOfServers: http://localhost:8762,http://localhost:8763
+  prefix: /v1
+# 网关API访问示例  http://localhost:5000/v1/hiapi/hi?name=wangyongtao
