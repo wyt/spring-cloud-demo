@@ -1,0 +1,4 @@
+github\wyt\web\RibbonController.class
+github\wyt\config\RibbonConfig.class
+github\wyt\EurekaRibbonClientApplication.class
+github\wyt\service\RibbonService.class
