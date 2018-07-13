@@ -1,6 +1,0 @@
-github\wyt\client\hystrix\HiHystrix.class
-github\wyt\web\HiController.class
-github\wyt\config\FeignConfig.class
-github\wyt\EurekaFeignClientApplication.class
-github\wyt\client\EurekaClientFeign.class
-github\wyt\service\HiService.class
