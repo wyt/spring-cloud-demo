@@ -3,12 +3,19 @@ spring:
     name: config-client
   cloud:
     config:
-      uri: http://localhost:8769
+      # uri: http://localhost:8769
       fail-fast: true
+      discovery:
+        enabled: true
+        serviceId: config-server
+
   profiles:
     active: dev
 
 # ${spring.application.name}-${spring.profiles.active} 即：
 # config-client-dev
 # 通过这种方式确定去config-server查找具体使用的配置文件
+
+server:
+  port: 8762
 
